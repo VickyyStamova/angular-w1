@@ -1,0 +1,59 @@
+.container {
+  max-width: 1000px;
+  margin:  auto;
+  padding: 50px;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f6ccf3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #9304da; 
+}
+h1:hover{
+  color: #cb85ee;
+}
+
+h2 {
+  color: #3d3c3d; 
+}
+
+p {
+  color: #6e6d6d;
+}
+
+a {
+  color: #810342; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.text {
+    display: none;
+  }
+  
+  .text.show {
+    display: block;
+  }
+  
+  .title {
+    cursor: pointer;
+  }
+
+  .title {
+    transition: transform 0.3s ease; /* Плавно променя позицията при промяна на състоянието */
+  }
+  
+  .title:hover {
+    transform: scale(1.05); /* Увеличава мащаба на елемента при hover */
+  }
+
+
+  .title:hover {
+    color: #f71c89;
+  }
